@@ -1,0 +1,270 @@
+/* 页眉样式 */
+.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+  
+.header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+    color: #666;
+}
+  
+
+* {/* 设置所有元素的外边距和内边距为0 */
+    margin: 0;
+    padding: 0;
+}
+
+a {/* 移除链接的下划线 */
+    text-decoration: none;
+}
+
+a:hover {/* 鼠标悬停时链接文字变色 */
+    color: #C33;
+}
+
+img {/* 移除图片边框 */
+    border: none;
+}
+
+ul {/* 移除列表项的默认样式 */
+    list-style-type: none;
+}
+
+.clear {/* 清除浮动 */
+    clear: both;
+}
+
+html {/* 设置html背景图片 */
+    background: url(../images/bg.jpg) no-repeat center top hsl(0, 0%, 100%);
+}
+
+body {/* 设置body居中显示 */
+    margin: 0 auto;
+    width: 1200px;
+    margin-top: 60px;
+}
+
+p {/* 设置段落文本首行缩进 */
+    text-indent: 32px;
+}
+
+.nav {/* 导航栏样式 */
+  height: 55px;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.nav li {/* 导航栏列表项样式，弹性布局 */
+  flex: 1;
+  text-align: center;
+}
+
+.nav li a {/* 导航栏链接样式 */
+  font-size: 20px;
+  color: #333;
+  display: block;
+  padding: 0 10px;
+  line-height: 55px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav li a:hover {/* 鼠标悬停时导航栏链接样式 */
+  background: #69C;
+  color: #fff;
+}
+
+.content {/* 内容区域样式 */
+    width: 1000px;
+    background: #fff;
+    padding: 0 100px;
+    margin-top: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, .1);
+}
+
+.ind_con1 h3 {/* 第一部分标题样式 */
+    text-align: center;
+    font-size: 22px;
+    padding: 15px 0;
+}
+
+.ind_con1 {/* 第一部分内容样式 */
+    padding-bottom: 40px;
+}
+
+.ind_con1 .text {/* 第一部分文字样式 */
+    font-size: 14px;
+    line-height: 26px;
+    float: left;
+    width: 75%;
+}
+
+.ind_con1 .pic {/* 第一部分图片样式 */
+    float: right;
+    width: 20%;
+}
+
+.ind_con1 .pic img {/* 第一部分图片内图片样式 */
+    width: 100%;
+    display: block;
+}
+
+.tit {/* 标题样式 */
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 8px 10px;
+    border-left: 10px solid #69C;
+}
+
+.ind_con2 {/* 第二部分内容样式 */
+    padding: 30px 0;
+}
+
+.ind_con2 p a {/* 第二部分内容样式 */
+    font-size: 20px;
+}
+
+.ind_con3 {/* 第三部分内容样式 */
+    padding: 30px 0;
+}
+
+.ind_con3 li {/* 第三部分列表项样式 */
+    width: 23%;
+    float: left;
+    margin: 0 1%;
+    margin-bottom: 20px;
+}
+
+.ind_con3 li img {/* 第三部分图片样式 */
+    width: 100%;
+    display: block;
+    height: 150px;
+    object-fit: cover;
+}
+
+footer {/* 页脚样式 */
+    background: #fff;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.con {/* 设置sports内容区域的行高 */
+    line-height: 2;
+    font-size: 18px;
+}
+
+#sports_pic {/* 设置运动图片宽度 */
+    width: 90%;
+}
+
+.list {/* 设置列表容器宽度和浮动方式 */
+    width: 600px;
+    float: left;
+}
+
+.list li {/* 设置列表项的宽度、字体大小、内边距和底部边框 */
+    width: 100%;
+    font-size: 20px;
+    padding: 20px 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+.list li a {/* 设置列表项内链接的文字颜色 */
+    color: #000;
+}
+
+.tr td {/* 设置内容区域的行高 */
+    margin: 25px;
+}
+
+.work_pic {/* 工作图片样式 */
+    float: right;
+    width: 28%;
+}
+
+.work_pic .img {/* 工作图片内图片样式 */
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.work_pic .img img {/* 工作图片内图片样式 */
+    width: 100%;
+    display: block;
+}
+
+.table {/* 表格样式 */
+    padding-bottom: 40px;
+}
+
+.table td {/* 表格单元格样式 */
+    border-bottom: 1px dashed #ccc;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.edu_text {/* 教育部分文本样式 */
+    width: 70%;
+    float: left;
+    line-height: 26px;
+}
+
+.edu_rt .img {/* 校徽样式 */
+    display: flex;
+    overflow-x: auto;
+    padding-left: 60px;
+}
+
+.evaluate_in {/* 留言框样式 */
+    padding-bottom: 20px;
+}
+
+.evaluate_in p {/* 留言框内段落样式 */
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.evaluate_in input, .evaluate_in textarea {/* 留言框输入框、文本域样式 */
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+}
+
+.evaluate_in button {/* 留言框按钮样式 */
+    width: 100%;
+    padding: 10px;
+    background-color: #69C;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+  .evaluate_in button:hover {
+    background-color: #555;
+}
+
+.imgs {/* 设置图片区域的高度 */
+    height: 370px;
+}

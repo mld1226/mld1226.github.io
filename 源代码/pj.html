@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+<title>个人网页</title>
+</head>
+<body>
+
+<header class="header">
+  <h1>欢迎来到我的个人网页</h1>
+  <p>这是我的个人介绍和兴趣爱好的展示</p>
+</header>
+
+
+<ul class="nav">
+  <li><a href="index.html">首页</a></li>
+  <li><a href="work.html">求职方向</a></li>
+  <li><a href="edu.html">教育经历</a></li>
+  <li><a href="imgs.html">图片风采</a></li>
+  <li><a href="self.html">联系方式</a></li>
+  <li><a href="pj.html">互动评价</a></li>
+</ul>
+<div class="content">
+  <div class="ind_con3">
+    <div>如果对我感兴趣，并且让我改进某些地方，请尽情留言</div>
+    <div class="edu_rt">
+      <div class="img">
+        <img src="images/pj_2.gif">
+        <img src="images/pj_3.gif">
+        <img src="images/pj_5.gif">
+      </div>
+    </div>
+  </div>
+  <div class="evaluate_in">
+    <h3 class="tit">留言</h3>
+    <form id="feedbackForm">
+      <!-- 使用表单结构 -->
+      <p>
+        <label for="name">姓名：</label>
+        <input type="text" id="name" name="name" required>
+      </p>
+      <p>
+        <label for="phone">电话：</label>
+        <input type="text" id="phone" name="phone" required>
+      </p>
+      <p>
+        <label for="message">留言：</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </p>
+      <button type="submit">提交</button>
+    </form>
+  </div>
+</div>
+
+<footer>© made by Zhangli 2024/6/11</footer>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var form = document.getElementById('feedbackForm');
+    form.addEventListener('submit', function (event) {
+      alert('提交成功');// 显示提交成功的弹窗
+      this.reset();// 重置表单
+    });
+  });
+</script>
+</body>
+</html>
